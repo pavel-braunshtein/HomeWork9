@@ -35,7 +35,7 @@ extension SignInViewController: SignInModelDelegate {
     func didValidate(errorText: String?, textType: TextType) {
         
         errorTextLabel.text = errorText
-        errorTextLabel.textColor = textStyle.textColor(for: textType)
+        errorTextLabel.textColor = textStyle.textColor(for: .error)
     }
 }
 

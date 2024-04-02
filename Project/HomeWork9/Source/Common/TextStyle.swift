@@ -12,7 +12,7 @@ protocol TextStyleProtocol {}
 extension TextStyleProtocol {
     
     func textColor(for type: TextType) -> UIColor {
-        return .green
+        return .red
     }
 }
 
@@ -30,3 +30,4 @@ class TextStyle : TextStyleProtocol {
         }
     }
 }
+

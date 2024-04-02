@@ -19,6 +19,8 @@
 		CE4F73A92BA9C5D200E927B4 /* TextType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F73A82BA9C5D200E927B4 /* TextType.swift */; };
 		CE4F73AD2BA9C6A200E927B4 /* SignInModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F73AC2BA9C6A200E927B4 /* SignInModelDelegate.swift */; };
 		CE4F73AF2BA9C7DC00E927B4 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F73AE2BA9C7DC00E927B4 /* TextStyle.swift */; };
+		E97375242BBB4C72009DE82F /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97375232BBB4C72009DE82F /* EmailValidator.swift */; };
+		E97375262BBB4C98009DE82F /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97375252BBB4C98009DE82F /* PasswordValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		CE4F73A82BA9C5D200E927B4 /* TextType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextType.swift; sourceTree = "<group>"; };
 		CE4F73AC2BA9C6A200E927B4 /* SignInModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModelDelegate.swift; sourceTree = "<group>"; };
 		CE4F73AE2BA9C7DC00E927B4 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		E97375232BBB4C72009DE82F /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		E97375252BBB4C98009DE82F /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				CE4F73A62BA9C59900E927B4 /* TextValidator.swift */,
+				E97375232BBB4C72009DE82F /* EmailValidator.swift */,
+				E97375252BBB4C98009DE82F /* PasswordValidator.swift */,
 				CE4F73A82BA9C5D200E927B4 /* TextType.swift */,
 				CE4F73AE2BA9C7DC00E927B4 /* TextStyle.swift */,
 			);
@@ -217,8 +223,10 @@
 				CE4F739E2BA9B7F900E927B4 /* MainViewController.swift in Sources */,
 				CE4F73862BA9B78400E927B4 /* AppDelegate.swift in Sources */,
 				CE4F73A92BA9C5D200E927B4 /* TextType.swift in Sources */,
+				E97375262BBB4C98009DE82F /* PasswordValidator.swift in Sources */,
 				CE4F73AD2BA9C6A200E927B4 /* SignInModelDelegate.swift in Sources */,
 				CE4F73882BA9B78400E927B4 /* SceneDelegate.swift in Sources */,
+				E97375242BBB4C72009DE82F /* EmailValidator.swift in Sources */,
 				CE4F73A72BA9C59900E927B4 /* TextValidator.swift in Sources */,
 				CE4F73A42BA9BF4C00E927B4 /* SignInModel.swift in Sources */,
 			);
